@@ -1,11 +1,11 @@
 # Add  code here!
-def prime?(num)
+def prime?(number)
   count = 2
   prime = true
-  if num <= 1
+  if number <= 1
     prime = false
   else 
-    while count < num
+    while count < number
       if num % count == 0 
         prime = false
       end
