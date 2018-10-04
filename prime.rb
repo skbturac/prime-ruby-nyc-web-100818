@@ -1,16 +1,16 @@
 # Add  code here!
 def prime?(num)
   i = 2
-  isPrime = true
+  prime = true
   if num <= 1
-    isPrime = false
+    prime = false
   else 
     while i < num
       if num % i == 0 
-        isPrime = false
+        prime = false
       end
       i += 1
     end
   end
-  isPrime
+ prime
 end    
